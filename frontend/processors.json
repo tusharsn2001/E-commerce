@@ -1,0 +1,145 @@
+[
+  {
+    "manufacturer": "Intel",
+    "model": "Core i9-9900K",
+    "image": "https://m.media-amazon.com/images/I/51lGUKbq2zL._AC_UY436_FMwebp_QL65_.jpg",
+    "rating": 4.8,
+    "numReviews": 120,
+    "category": "Desktop Processors",
+    "price": 499.99,
+    "countInStock": 30,
+    "type": "cpu"
+  },
+  {
+    "manufacturer": "AMD",
+    "model": "Ryzen 7 5800X",
+    "image": "https://m.media-amazon.com/images/I/61IIbwz-+ML._AC_UY436_FMwebp_QL65_.jpg",
+    "rating": 4.9,
+    "numReviews": 90,
+    "category": "Desktop Processors",
+    "price": 449.99,
+    "countInStock": 25,
+    "type": "cpu"
+  },
+  {
+    "manufacturer": "Intel",
+    "model": "Core i5-10600K",
+    "image": "https://m.media-amazon.com/images/I/61xAzEoCuhL._AC_UY436_FMwebp_QL65_.jpg",
+    "rating": 3.5,
+    "numReviews": 80,
+    "category": "Desktop Processors",
+    "price": 299.99,
+    "countInStock": 50,
+    "type": "cpu"
+  },
+  {
+    "manufacturer": "AMD",
+    "model": "Ryzen 5 3600",
+    "image": "https://m.media-amazon.com/images/I/81b75EQJrgL._AC_UY436_FMwebp_QL65_.jpg",
+    "rating": 4.7,
+    "numReviews": 150,
+    "category": "Desktop Processors",
+    "price": 199.99,
+    "countInStock": 40,
+    "type": "cpu"
+  },
+  {
+    "manufacturer": "AMD",
+    "model": "Ryzen 9 5900X",
+    "image": "https://m.media-amazon.com/images/I/616VM20+AzL._AC_UY436_FMwebp_QL65_.jpg",
+    "rating": 4.8,
+    "numReviews": 200,
+    "category": "Desktop Processors",
+    "price": 549.99,
+    "countInStock": 15,
+    "type": "cpu"
+  },
+  {
+    "manufacturer": "Intel",
+    "model": "Core i7-10700K",
+    "image": "https://m.media-amazon.com/images/I/41AG-t5KLoL._SX300_SY300_QL70_FMwebp_.jpg",
+    "rating": 4.6,
+    "numReviews": 120,
+    "category": "Desktop Processors",
+    "price": 399.99,
+    "countInStock": 20,
+    "type": "cpu"
+  },
+  {
+    "manufacturer": "AMD",
+    "model": "Ryzen 5 5600X",
+    "image": "https://m.media-amazon.com/images/I/71P3chRzgNL._AC_UY436_FMwebp_QL65_.jpg",
+    "rating": 4.7,
+    "numReviews": 150,
+    "category": "Desktop Processors",
+    "price": 279.99,
+    "countInStock": 35,
+    "type": "cpu"
+  },
+  {
+    "manufacturer": "Intel",
+    "model": "Core i3-10100",
+    "image": "https://m.media-amazon.com/images/I/51AXYc+jykL._AC_UY436_FMwebp_QL65_.jpg",
+    "rating": 4.2,
+    "numReviews": 80,
+    "category": "Desktop Processors",
+    "price": 149.99,
+    "countInStock": 45,
+    "type": "cpu"
+  },
+  {
+    "manufacturer": "AMD",
+    "model": "Ryzen 3 3300X",
+    "image": "https://m.media-amazon.com/images/I/71S4Zxo0yrL._AC_UY436_FMwebp_QL65_.jpg",
+    "rating": 4,
+    "numReviews": 50,
+    "category": "Desktop Processors",
+    "price": 129.99,
+    "countInStock": 60,
+    "type": "cpu"
+  },
+  {
+    "manufacturer": "Intel",
+    "model": "Pentium Gold G6400",
+    "image": "https://m.media-amazon.com/images/I/81eoV5SY8RL._AC_UY436_FMwebp_QL65_.jpg",
+    "rating": 3.8,
+    "numReviews": 30,
+    "category": "Desktop Processors",
+    "price": 79.99,
+    "countInStock": 70,
+    "type": "cpu"
+  },
+  {
+    "manufacturer": "AMD",
+    "model": "Athlon 3000G",
+    "image": "https://m.media-amazon.com/images/I/61THc9DLMCL._AC_UY436_FMwebp_QL65_.jpg",
+    "rating": 3.5,
+    "numReviews": 20,
+    "category": "Desktop Processors",
+    "price": 59.99,
+    "countInStock": 80,
+    "type": "cpu"
+  },
+  {
+    "manufacturer": "Intel",
+    "model": "Celeron G5900",
+    "image": "https://m.media-amazon.com/images/I/61oWyN2r2qL._AC_UY436_FMwebp_QL65_.jpg",
+    "rating": 3.3,
+    "numReviews": 15,
+    "category": "Desktop Processors",
+    "price": 49.99,
+    "countInStock": 90,
+    "type": "cpu"
+  },
+  {
+    "manufacturer": "AMD",
+    "model": "Ryzen Threadripper 3970X",
+    "image": "https://m.media-amazon.com/images/I/61fqEHg5ieL._AC_UY436_FMwebp_QL65_.jpg",
+    "rating": 4.9,
+    "numReviews": 180,
+    "category": "Desktop Processors",
+    "price": 1499.99,
+    "countInStock": 10,
+    "type": "cpu"
+  }
+]

@@ -48,14 +48,14 @@ const Header = () => {
                             title="CATEGORIES"
                             id="basic-nav-dropdown"
                         >
-                            {Categories.map((item) => (<NavDropdown.Item href={item.route}>{item.name}</NavDropdown.Item>))}
+                            {Categories.map((item, key) => (<NavDropdown.Item href={item.route} key={key}>{item.name}</NavDropdown.Item>))}
 
 
                         </NavDropdown>
 
                         <Nav className="ms-auto">
                             <LinkContainer to='/cart'>
-                                <Nav.Link className='text-light' >{<ShoppingCart size={20} />}  Cart</Nav.Link>
+                                <Nav.Link className='text-light' to='/cart'>{<ShoppingCart size={20} />}  Cart</Nav.Link>
                             </LinkContainer>
 
                             <LinkContainer to='/login'>

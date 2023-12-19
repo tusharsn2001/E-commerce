@@ -1,18 +1,22 @@
-import React, { useEffect, useState } from 'react'
-import { Link, useParams } from 'react-router-dom'
-import axios from 'axios'
-import Rating from '../Components/Rating'
+import React, { useEffect, useState } from 'react';
+import { Link, useParams } from 'react-router-dom';
+import axios from 'axios';
+import Rating from '../Components/Rating';
 import Form from 'react-bootstrap/Form';
-import { Card, Container, Row } from 'react-bootstrap'
+import { Card, Container, Row } from 'react-bootstrap';
+import { useDispatch } from 'react-redux';
+import { cartAddItem } from '../redux/cartSlice';
 
 const ProductScreen = () => {
 
     const { category, id } = useParams();
-    let item = category.substring(0, category.length - 1)
+    let item = category.substring(0, category.length - 1);
 
     const [data, setData] = useState({});
     const [status, setStatus] = useState(false);
-    const [qty, setQty] = useState(1)
+    const [qty, setQty] = useState(1);
+    const dispatch = useDispatch();
+    // const history = useHistory();
 
     const callApiProduct = () => {
         console.log(category, id, item)
@@ -42,8 +46,26 @@ const ProductScreen = () => {
     }, [])
 
 
-    const addToCartHandler = () => {
+    const addToCartHandler = async () => {
+        let config = {
+            method: 'get',
+            maxBodyLength: Infinity,
+            url: `/api/${category}/${id}`,
+            headers: {}
+        };
 
+        axios
+            .request(config)
+            .then((response) => {
+                console.log(response.data.data);
+                dispatch(cartAddItem({ product: response.data.data, quantity: qty }));
+
+                // After adding the item to the cart, navigate to /cart
+                // history.push('/cart');
+            })
+            .catch((error) => {
+                console.log(error);
+            });
     }
 
     return (

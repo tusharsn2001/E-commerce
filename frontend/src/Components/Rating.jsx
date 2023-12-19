@@ -1,6 +1,6 @@
 import React from 'react'
 import { StarHalf, Star } from 'lucide-react'
-import PropTypes from 'prop-types'
+import propTypes from 'prop-types'
 
 
 
@@ -27,9 +27,9 @@ const Rating = ({ value, text }) => {
     )
 }
 
-Rating.PropTypes = {
-    value: PropTypes.number.isRequired,
-    text: PropTypes.string.isRequired
+Rating.propTypes = {
+    value: propTypes.number.isRequired,
+    text: propTypes.string.isRequired
 }
 
 export default Rating

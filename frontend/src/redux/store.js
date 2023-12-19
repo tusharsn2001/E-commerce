@@ -1,8 +1,18 @@
-import { configureStore } from "@reduxjs/toolkit";
-import productReducer from '../features/productSlice'
-export const store = configureStore({
+// store.js
+import { configureStore } from '@reduxjs/toolkit';
+// import thunk from 'redux-thunk';
+import productListReducer from './productSlice';
+import cartItemsReducer from './cartSlice'
+import userLoginReducer from './userSlice'
+const store = configureStore({
     reducer: {
-        products: productReducer
-    }
-})
+        productList: productListReducer,
+        cartItems: cartItemsReducer,
+        userLogin: userLoginReducer
+    },
 
+});
+
+
+
+export default store;

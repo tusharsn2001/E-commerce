@@ -19,7 +19,7 @@ const orderSchema = new mongoose.Schema({
         productType: {
             type: String,
             required: true,
-            enum: ['Processor', 'Graphiccard', 'Ram']
+            enum: ['processors', 'graphiccards', 'rams']
         },
         product: {
             type: mongoose.Schema.Types.ObjectId,
